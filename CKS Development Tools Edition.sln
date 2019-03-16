@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signing", "Signing", "{908F1078-E546-402A-955D-EF483AA5AA3C}"
+	ProjectSection(SolutionItems) = preProject
+		Signing\Readme.txt = Signing\Readme.txt
+		Signing\tempkey.snk = Signing\tempkey.snk
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKS.Dev.Core", "CKS.Dev.Core\CKS.Dev.Core.csproj", "{F5EAF304-52EB-4952-B0F3-176DCFC569D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKS.Dev.Core.Cmd.Imp.v5", "CKS.Dev.Core.Cmd.Imp.v5\CKS.Dev.Core.Cmd.Imp.v5.csproj", "{6C0104FC-034B-48FC-92AF-A750F7828701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKS.Dev.Core.Cmd", "CKS.Dev.Core.Cmd\CKS.Dev.Core.Cmd.csproj", "{5671D635-160C-4BE6-B43C-43C99A308040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKS.Dev.Core.Scaffolder", "CKS.Dev.Core.Scaffolder\CKS.Dev.Core.Scaffolder.csproj", "{8D9563FD-B2AA-4378-A950-962775E18C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKS.Dev.VS2017", "CKS.Dev.VS2017\CKS.Dev.VS2017.csproj", "{43BB132B-79CC-4144-9CA7-DC3091E16196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedAssemblyInfo", "SharedAssemblyInfo", "{7DFA2138-CD91-4AF8-B88C-6818C81FEAA6}"
+	ProjectSection(SolutionItems) = preProject
+		SharedAssemblyInfo\SharedAssemblyInfo.cs = SharedAssemblyInfo\SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5EAF304-52EB-4952-B0F3-176DCFC569D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EAF304-52EB-4952-B0F3-176DCFC569D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EAF304-52EB-4952-B0F3-176DCFC569D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EAF304-52EB-4952-B0F3-176DCFC569D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0104FC-034B-48FC-92AF-A750F7828701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0104FC-034B-48FC-92AF-A750F7828701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0104FC-034B-48FC-92AF-A750F7828701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0104FC-034B-48FC-92AF-A750F7828701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5671D635-160C-4BE6-B43C-43C99A308040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5671D635-160C-4BE6-B43C-43C99A308040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5671D635-160C-4BE6-B43C-43C99A308040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5671D635-160C-4BE6-B43C-43C99A308040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9563FD-B2AA-4378-A950-962775E18C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9563FD-B2AA-4378-A950-962775E18C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9563FD-B2AA-4378-A950-962775E18C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9563FD-B2AA-4378-A950-962775E18C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BB132B-79CC-4144-9CA7-DC3091E16196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BB132B-79CC-4144-9CA7-DC3091E16196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BB132B-79CC-4144-9CA7-DC3091E16196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BB132B-79CC-4144-9CA7-DC3091E16196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E15381-D7C0-4BEE-ADC2-65A751595CC2}
+	EndGlobalSection
+EndGlobal
